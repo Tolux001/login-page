@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://kit.fontawesome.com/bbd705426d.js" crossorigin="anonymous"></script>
+ <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Page </title>
+</head>
+<body>
+    <div id="start">
+      <div class="start">
+      <div class="one">
+        <span onclick="document.getElementById('id01').style.display='none'" title="Close Modal" class="close"> &times;</span>
+        <img src="download.jpg" alt="">
+      </div>
+      <div class="two">
+        <form target="_blank" autocomplete="on">
+         <div class="ip1">
+    <label for="fname"> Username</label><br>
+        <i class="fa-solid fa-user"></i><input type="text" name="fname"
+    id="fname" placeholder="Enter Username" required="required">
+         </div>
+   <div class="ip2">
+     <label for="password"> Password</label><br>
+       <i class="fa-solid fa-lock"></i>  <input type="password" name="password" id="password" pattern=".{7,15}" title="Must consist of a least 7 numbers with number and symbols" required="required" placeholder="Enter Password">
+   </div>
+   <div class="bt">
+     <input type="submit" name="selection" value="Log In">
+   </div>
+   <div class="check">
+     <input type="checkbox" checked="checked" required="required">Remember Me</span> </div>
+      <div class="stop">
+        <button> Cancel</button>
+        <a href="#"> Forgot Password❓</a>
+   </form>
+   
+      </div>
+      </div>
+      </div>
+    </div>
+</body>
+</html>
